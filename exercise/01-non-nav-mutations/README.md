@@ -2,6 +2,9 @@
 
 ## 📝 Notes
 
+- useFetcher is used when we want to mutate (maybe with a form submission or just a change in the ui), but not trigger a navigation
+- when using the Form from remix, it acts like the regular form from html that adds a new location to the stack, and this is not what we want. 
+
 ## 🤓 Background
 
 From the beginning of the web, `<form>` has been how mutations were handled. The
