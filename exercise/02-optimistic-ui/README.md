@@ -4,6 +4,7 @@
 
  - For optmistic ui, we can get the recent submited values from the useFetcher and concat with our data
  - Remix ravalidades automatically the values so whenever the api resolves, the data is the same as the server
+ - Sometimes a parent needs to be uptodate with the children UI, we can do something like that with useFetchers
 
 ## 🤓 Background
 
