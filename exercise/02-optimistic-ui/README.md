@@ -2,6 +2,9 @@
 
 ## 📝 Notes
 
+ - For optmistic ui, we can get the recent submited values from the useFetcher and concat with our data
+ - Remix ravalidades automatically the values so whenever the api resolves, the data is the same as the server
+
 ## 🤓 Background
 
 Continuing with the twitter example in the last exercise, when you click
