@@ -1,6 +1,12 @@
 # 04. Revalidation Optimization
 
 ## 📝 Notes
+ 
+ - When a mutation happens within a page, Remix tries to revalidate the related pages by calling the loader again.
+ - For some cases, we know that the revalidation is not necessary, so we don't need to revalidade.
+ - unstable_shouldReload lets us choose when to revalidade a page or not based on an action from related pages.
+ - We have to be careful because it can lead to state out of date with server state, so we have to check the use cases for when it's helpful to desable validation (when it's valid to optmize) 
+
 
 ## 🤓 Background
 

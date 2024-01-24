@@ -1,5 +1,6 @@
 import type { LinksFunction, LoaderArgs, MetaFunction } from "@remix-run/node";
 import { json } from "@remix-run/node";
+import type { ShouldReloadFunction } from "@remix-run/react";
 import {
   Links,
   LiveReload,
@@ -119,5 +120,10 @@ function LogoutTimer() {
   );
 }
 
-// 🐨 Add unstable_shouldReload here and only reload the data if the transition
-// has a submission where the action is "/login" or "/logout"
+export const unstable_shouldReload: ShouldReloadFunction = ({ submission }) => {
+  const isAuthAction =
+    submission?.action === "/logout" || submission?.action === "/login";
+
+  if (isAuthAction) return true;
+  return false;
+};

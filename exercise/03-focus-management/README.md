@@ -2,6 +2,9 @@
 
 ## 📝 Notes
 
+- For focus management we can get the errors from the fetcher 
+- With the form ref, we can focus on the first input field that contains error with useEffect
+
 ## 🤓 Background
 
 One of the benefits of having JavaScript on the page is we're able to help the
