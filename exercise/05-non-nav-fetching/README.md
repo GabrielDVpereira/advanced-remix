@@ -2,6 +2,9 @@
 
 ## 📝 Notes
 
+- we can also use the useFetcher to load things imperatively. Using the fetcher.submit and passing the params (query and method), or fetcher.load and constructing the url. 
+- by doing it, we control when to fetch elements
+
 ## 🤓 Background
 
 Picture this: a React component that handles the whole experience of fetching
