@@ -2,6 +2,8 @@
 
 ## 📝 Notes
 
+- when we want to have Imperative mutations we can use the fetcher (for when we don't want to trigger navigation) or submit for when we want to trigger a navigation along with it.
+
 ## 🤓 Background
 
 So far the only way we've made mutations for our app is by using forms where the
