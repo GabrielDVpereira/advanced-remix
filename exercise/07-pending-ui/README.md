@@ -2,6 +2,9 @@
 
 ## 📝 Notes
 
+- we can use useTransition (useNavigation) to know when an network request is happening. That way we can give a good user XP for when they have a slow network request. 
+- We check for a transition state other than "idle"
+
 ## 🤓 Background
 
 No matter how hard you try, you can't control your user's network and sometimes
