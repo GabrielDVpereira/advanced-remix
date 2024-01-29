@@ -2,6 +2,10 @@
 
 ## 📝 Notes
 
+- We can defer our loader response, meaning that we can split it into chunks that will resolve later (Passing promise over the network)
+- Once we defer values, we can await for it in the frontend. We use Suspense with Await to wait for the defered value
+- Note: Our host must support streaming. The defered value is streamed over the network so we know when it's resolved without having to make an extra request.
+
 ## 🤓 Background
 
 Sometimes, it's not our customer's Network connection that's the problem, but
