@@ -2,6 +2,14 @@
 
 ## 📝 Notes
 
+- just like our pending ui exercise, we can use the transition api (useNavigation) to get the information in the parent if we're transitioning, and then add the pending UI
+- This is specially nice when we have outlets, so we can toggle between the Outlet component and the Skeleton component
+
+Steps:
+- Add useTranstion to get the nav state (idle or not)
+- We can also use the transition.location.state to pass information in the navigation
+- With the transition, we can get the transition.state and show the Skeleton
+
 ## 🤓 Background
 
 A loading spinner is great... But we can improve that experience even further by
